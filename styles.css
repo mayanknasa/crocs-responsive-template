@@ -1,0 +1,148 @@
+body{
+    margin-top: 0;
+    background-color: #c8ee84;
+    font-family: 'Arvo', serif;
+}
+.main1{
+    margin: 0px;
+}
+.main_rest{
+    margin: 0px;
+}
+h5{
+    font-weight: 300;
+    font-size: 30px;
+}
+h1{
+    font-weight: 700;
+    font-size: 100px;
+}
+h2{
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.left{
+    font-weight: 700;
+    font-size: 70px;
+    text-align: left;
+}
+button{
+    color:#fefeff;
+    background-color: #303030;
+    font-size: 17px;
+    border-radius: 40px;
+    border: none;
+    padding:17px;
+    /* margin-top: 20px; */
+    align-content: center;
+}
+#about{
+    font-size: 20px;
+    font-weight: 400;
+}
+sup{
+    font-size: 10px;
+}
+.light{
+    color:#fefeff;
+}
+.dark{
+    color:#303030;
+}
+.green{
+    color:#c8ee84;
+}
+.green_bg{
+    background-color: #c8ee84;
+}
+.light_bg{
+    background-color: #fefeff;
+}
+.filter-green{
+    fill:#c8ee84;
+}
+.form-control{
+    background-color: #eeedeb;
+    border-radius: 40px;
+    border: none;
+    padding:25px;
+}
+.form-control ::placeholder{
+    color: #acaeb3;
+}
+.transformed_buttons{
+    padding-top: 0px;
+    transform: translateY(-35px);
+}
+
+.main_child{
+    padding-top: 110px; 
+    padding-bottom: 110px;
+}
+.zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+    border-radius: 50%; 
+    width: 95%; 
+    height: 85%; 
+    margin-top: 25px; 
+    border-style:dotted; 
+    border-width: 10px; 
+    border-color: green;
+    transform: translateY(25px); 
+}
+.zoom:hover {
+    transform: scale(1.07);
+}
+
+.zoom2 {
+    border-radius: 50%; 
+    width: 100%; 
+    padding: 5px;
+}
+.main_btn{
+      width: 250px;
+      margin-top: 50px;
+      margin-bottom: 30px;
+      transition: 300ms;
+      border: solid;
+      border-color:#303030;
+}
+.green_bg .main_btn:hover{
+    color:#303030;
+    background-color: #fefeff;
+    border-color:#303030;
+    border: solid;
+}
+.light_bg .main_btn:hover{
+    color:#303030;
+    background-color: #c8ee84;
+    border-color:#303030;
+    border: solid;
+}
+.btn_news_section{
+    width: 250px;
+    transition: 400ms;
+    border: solid;
+    border-color: #303030;
+}
+.btn_news_section:hover{
+    color:#303030;
+    background-color: #fefeff;
+    border-color: #303030;
+    border: solid;
+}
+.card-text{
+      margin-bottom: 15px;
+      padding:10px; 
+      padding-bottom: 50px;
+}
+.card-title{
+    padding:10px;
+}
+.sm_icons{
+    width:35px;
+    height:35px;
+}
