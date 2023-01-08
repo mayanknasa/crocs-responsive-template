@@ -1,648 +1,497 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Crocs India</title>
-  </head>
-  <body>
-    <div style="background-color:black; color:#fff; letter-spacing:2px; text-align:center;">
-      SITE IS UNDER MAINTENANCE. <br>USER MAY FACE SOME LAYOUT ALIGNMENT ISSUES.
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Jteve</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- awesome fontfamily -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="" /></div>
+      </div>
+      <!-- end loader -->
+      <div id="mySidepanel" class="sidepanel">
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+         <a class="active" href="index.html">Home</a>
+         <a href="about.html">About</a>
+         <a href="service.html">Service</a>
+         <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="top_main">
+      <div class="head_top">
+      <!-- header -->
+      <header>
+         <!-- header inner -->
+         <div class="header">
+                     <div class="logo">
+                        <a href="index.html">MN</a>
+                     </div>
+                  </div>
+                
+                     <ul class="email text_align_right">
+                        <li> <button class="openbtn" onclick="openNav()"><img src="images/menu_btn.png"></button></li>
+                        <li> <a href="javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                        <li> <a href="javascript:void(0)"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                     </ul>
+      </header>
     </div>
-    <!-- CROCS INDIA -->
-    <div class="container-fluid main1 green_bg" id="section1">
-      <section class="d-flex justify-content-center mx-auto">
-        <div class="container col-9">
+      <!-- end header -->
+      <!-- start slider section -->
+      <div class="right_main">
+        <div  class=" banner_main">
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption relative">
+                                <div class="row">
+                                   <div class="col-lg-5">
+                                     <div class="bluid">
+                                      <h1>Wedding <br><span>House 
+                                      </span></h1>
+                                      <p>There are many variations of passages of Lorem Ipsum available, but the majority haveThere are many variations of passages of Lorem Ipsum availabl</p>
+                                      <a class="read_more" href="about.html">About </a>
+                                      <a class="read_more" href="contact.html">Contact</a>
+                                     </div>
+                                   </div>
+                                   <div class="col-lg-7">
+                                      <div class="pan_img">
+                                         <figure><img src="images/2cup.png" alt="#"/></figure>
+                                      </div>
+                                   </div>
+                                </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption relative">
+                               <div class="row">
+                                   <div class="col-lg-5">
+                                     <div class="bluid">
+                                      <h1>Wedding <br><span>House 
+                                      </span></h1>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga perferendis, quam impedit officia rem voluptas similique possimus.</p>
+                                      <a class="read_more" href="about.html">About </a>
+                                      <a class="read_more" href="contact.html">Contact</a>
+                                     </div>
+                                   </div>
+                                   <div class="col-lg-7">
+                                      <div class="pan_img">
+                                         <figure><img src="images/2cup.png" alt="#"/></figure>
+                                      </div>
+                                   </div>
+                                </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption relative">
+                                <div class="row">
+                                   <div class="col-lg-5">
+                                     <div class="bluid">
+                                      <h1>Wedding <br><span>House 
+                                      </span></h1>
+                                      <p> doloribus quos illum veniam recusandae ullam totam? Commodi explicabo odit expedita eaque eligendi.</p>
+                                      <a class="read_more" href="about.html">About </a>
+                                      <a class="read_more" href="contact.html">Contact</a>
+                                     </div>
+                                   </div>
+                                   <div class="col-lg-7">
+                                      <div class="pan_img">
+                                         <figure><img src="images/2cup.png" alt="#"/></figure>
+                                      </div>
+                                   </div>
+                                </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                     <i class="fa fa-angle-left" aria-hidden="true"></i>
+                     <span class="sr-only">Previous</span>
+                     </a>
+                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                     <i class="fa fa-angle-right" aria-hidden="true"></i>
+                     <span class="sr-only">Next</span>
+                     </a>
+                  </div>
+        </div>
+      <!-- end slider section -->
+       <!-- services -->
+      <div class="services padd_rl30">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_left">
+                     <h2>Our <span> services</span></h2>
+                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration i</p>
+                  </div>
+               </div>
+            </div>
+                  <div class="row">
+                     <div class="col-lg-4">
+                        <div class="services_text">
+                            <i><img src="images/service1.png" alt="#"/></i>
+                            <h3>Wedding menu</h3>
+                            <p>Eum iriure dolor in hendrerit in vulputate velit esse molestie con sequat, vel illum dolore eu </p>
+                            </div>
+                           <a class="read_more" href="services.html">Read More</a>
+                     </div>
+                     <div class="col-lg-4">
+                        <div class="services_text">
+                            <i><img src="images/service2.png" alt="#"/></i>
+                            <h3>Honeymoon ideas</h3>
+                            <p>Eum iriure dolor in hendrerit in vulputate velit esse molestie con sequat, vel illum dolore eu </p>
+                            </div>
+                           <a class="read_more" href="services.html">Read More</a>
+                     </div>
+                     <div class="col-lg-4">
+                        <div class="services_text">
+                            <i><img src="images/service3.png" alt="#"/></i>
+                            <h3>Gift ideas</h3>
+                            <p>Eum iriure dolor in hendrerit in vulputate velit esse molestie con sequat, vel illum dolore eu </p>
+                            </div>
+                           <a class="read_more" href="services.html">Read More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+      <!-- end services -->
+      <!-- about -->
+      <div  class="about padd_rl30">
+         <div class="container">
           <div class="row">
-            <div class="col-xl-6">
-              <h1 style="padding-top: 80px">
-                <span class="dark">CROCS</span><span class="light"> INDIA</span>
-              </h1>
-              <p
-                class="light"
-                id="about"
-                style="padding-top: 30px; font-size: 25px"
-              >
-                The Crocs<sup>TM</sup> brand stands for innovation, fun and
-                comfort for people who want shoes that conform to their
-                personalities and lifestyles, as well as to their feet. Now in
-                more styles and in more places for more occasions than ever
-                before Crocs<sup>TM</sup> is taking a big step forward in
-                providing intuitive comfort to feet everywhere.
-              </p>
-              <button class="main_btn">About</button>
-              <button class="main_btn">Contact</button>
-            </div>
-            <div class="col-xl-6 img-fluid">
-              <img
-                src="https://moki.com/wp-content/uploads/2014/10/crocsStore.jpg"
-                class="zoom"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-
-    <!-- OUR SERVICES -->
-    <div class="container-fluid main_rest green_bg" id="section2">
-      <div class="container col-9 main_child">
-        <h2 class="left">
-          <span class="dark">OUR</span><span class="light"> SERVICES</span>
-        </h2>
-        <p style="padding-bottom: 20px">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa,
-          cupiditate. Enim et inventore amet minus quibusdam a, aspernatur
-          quidem quos molestiae dolorum quia, error omnis autem laboriosam qui!
-          Modi, fuga!
-        </p>
-        <section class="d-flex justify-content-center mx-auto">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="https://img.icons8.com/external-jumpicon-line-ayub-irawan/200/external-_21-super-bowl-jumpicon-(line)-jumpicon-line-ayub-irawan.png"
-                    class="card-img-top"
-                    alt="sports_shoes"
-                    style="
-                      width: 50%;
-                      height: 50%;
-                      margin-left: 10px;
-                      margin-top: 40px;
-                      margin-bottom: 40px;
-                      filter: invert(95%) sepia(6%) saturate(2595%)
-                        hue-rotate(24deg) brightness(98%) contrast(92%);
-                    "
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Sports Shoes</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-                <div class="col text-center">
-                  <button style="margin-top: 20px" class="main_btn">
-                    Read More
-                  </button>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="https://cdn-icons-png.flaticon.com/512/24/24697.png"
-                    alt="ladies_shoes"
-                    style="
-                      width: 50%;
-                      height: 50%;
-                      margin-left: 10px;
-                      margin-top: 40px;
-                      margin-bottom: 40px;
-                    "
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Ladies Shoes</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-                <div class="col text-center">
-                  <button style="margin-top: 20px" class="main_btn">
-                    Read More
-                  </button>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="https://img.icons8.com/external-xnimrodx-lineal-xnimrodx/200/external-shoes-fitness-and-gym-xnimrodx-lineal-xnimrodx.png"
-                    class="filter-green"
-                    style="
-                      width: 50%;
-                      height: 50%;
-                      margin-left: 10px;
-                      margin-top: 40px;
-                      margin-bottom: 40px;
-                      filter: invert(95%) sepia(6%) saturate(2595%)
-                        hue-rotate(24deg) brightness(98%) contrast(92%);
-                    "
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Casual Shoes</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-                <div class="col text-center">
-                  <button style="margin-top: 20px" class="main_btn">
-                    Read More
-                  </button>
-                </div>
+            <div class="col-md-12">
+              <div class="titlepage text_align_left">
+                <h2>About <span>Us</span></h2>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration i</p>
               </div>
             </div>
           </div>
-        </section>
+          <div class="row">
+               <div class="col-lg-8">
+                  <div class="about_text text_align_left">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomisedThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomisedThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised</p>
+                       <a class="read_more" href="about.html">Read More</a>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="about_img">
+                     <figure><img class="img_responsive" src="images/about1.png" alt="#"/></figure>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-    </div>
-
-    <!-- ABOUT US -->
-    <div class="container-fluid main_rest light_bg" id="section3">
-      <div class="container col-9 main_child">
-        <h2 class="left">
-          <span class="dark">ABOUT</span><span class="green"> US</span>
-        </h2>
-        <br />
-        <section class="d-flex justify-content-center mx-auto">
-          <div class="container">
+      <!-- end about -->
+      <!-- locations -->
+      <div class="locations padd_rl30">
+         <div class="container">
             <div class="row">
-              <div class="col-xl-6">
-                <p>
-                  Born in Boulder, Colo. as a simple, comfortable boat shoe,
-                  today Crocs™ footwear can be found across the globe and in
-                  more than 120 styles for men, women and children. With
-                  distinct collections, Crocs offers colorful, lightweight
-                  comfort for any occasion and every season. All Crocs™ shoes
-                  are uniquely designed and manufactured using the company’s
-                  proprietary closed-cell resin, Croslite™, a technology that
-                  gives each pair of shoes the soft, comfortable, lightweight,
-                  non-marking and odor-resistant qualities that Crocs wearers
-                  know and love. Crocs™ footwear is ideal for casual wear, as
-                  well as for professional use and recreational activities. More
-                  than 100 million pairs of Crocs™ footwear have been sold. So
-                  what are you waiting for? “Feel the love™” and try a pair of
-                  Crocs™ shoes today.
-                </p>
-                <div class="col text-center">
-                  <button class="main_btn" style="margin-top: 30px">
-                    Read More
-                  </button>
-                </div>
-              </div>
-              <div class="col-xl-6 img-fluid">
-                <img
-                  src="https://www.burjuman.com/wp-content/uploads/2020/09/Crocs-01.jpg"
-                  class="rounded-circle zoom2"
-                />
+               <div class="col-md-12">
+                  <div class="titlepage text_align_left">
+                     <h2>Locations</h2>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-4">
+                  <div class="bearch text_align_left">
+                    <figure><img src="images/loca.jpg" alt="#"/></figure>
+                    <div class="city">
+                    <h3>City wedding</h3>
+                    <p>Eum iriure dolor in hendrerit in vulputate velit esse molestie con sequat, vel illum dolore eu </p>
+                    </div>
+                  </div>
+                  <a class="read_more" href="locations.html">Read More</a>
+               </div>
+               <div class="col-lg-4">
+                  <div class="bearch text_align_left">
+                    <figure><img src="images/loca1.jpg" alt="#"/></figure>
+                    <div class="city">
+                    <h3>Beach wedding</h3>
+                    <p>Eum iriure dolor in hendrerit in vulputate velit esse molestie con sequat, vel illum dolore eu </p>
+                    </div>
+                  </div>
+                  <a class="read_more" href="locations.html">Read More</a>
+               </div>
+               <div class="col-lg-4">
+                  <div class="bearch text_align_left">
+                    <figure><img src="images/loca2.jpg" alt="#"/></figure>
+                    <div class="city">
+                    <h3>Country wedding</h3>
+                    <p>Eum iriure dolor in hendrerit in vulputate velit esse molestie con sequat, vel illum dolore eu </p>
+                    </div>
+                  </div>
+                  <a class="read_more" href="locations.html">Read More</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end locations -->
+       <!-- clients -->
+      <div class="clients padd_rl30">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="titlepage text_align_center">
+                <h2>Testimonial</h2>
               </div>
             </div>
           </div>
-        </section>
-      </div>
-    </div>
-
-    <!-- LOCATIONS -->
-    <div class="container-fluid main_rest green_bg" id="section4">
-      <div class="container col-9 main_child">
-        <h2 class="left"><span class="dark">LOCATIONS</span></h2>
-        <br />
-        <section class="d-flex justify-content-center mx-auto">
-          <div class="container">
-            <div class="row">
-              <div class="col">
-                <div class="card" style="width: 25rem; height: auto">
-                  <img
-                    src="https://cdn.britannica.com/63/19463-050-11795CBD/Sleeping-Beauty-Castle-Disneyland-Anaheim-California.jpg"
-                    class="card-img-top"
-                    alt="disneyland"
-                    style="width: 398px; height: 257px"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Disneyland</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-                <div class="col text-center">
-                  <button class="main_btn" style="margin-top: 30px">
-                    Read More
-                  </button>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card" style="width: 25rem; height: auto">
-                  <img
-                    src="https://s3.amazonaws.com/iexplore_web/images/assets/000/005/592/original/16344178454_444aed4651_h.jpg?1442891076"
-                    alt="pyramids"
-                    style="width: 398px; height: 257px"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Pyramids</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-                <div class="col text-center">
-                  <button style="margin-top: 30px" class="main_btn">
-                    Read More
-                  </button>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="card" style="width: 25rem; height: auto">
-                  <img
-                    src="https://www.edudwar.com/wp-content/uploads/2021/12/Wonders-of-the-World.jpg"
-                    alt="china_wall"
-                    style="width: 398px; height: 257px"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">China Wall</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-                <div class="col text-center">
-                  <button class="main_btn" style="margin-top: 30px">
-                    Read More
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
-    </div>
-
-    <!-- SLIDE -->
-    <div class="container-fluid main_rest light_bg" id="section5">
-      <div class="container col-9 main_child">
-        <div class="container col-lg-6 col-md-3">
-          <h2><span class="dark">SLIDE</span></h2>
-        </div>
-        <br />
-        <section class="d-flex justify-content-center mx-auto">
-          <div
-            id="carouselExampleDark"
-            class="carousel carousel-dark slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleDark"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleDark"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleDark"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
+         </div>
+         <!-- start slider section -->
+         <div id="testi" class="carousel slide clients_banner" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#testi" data-slide-to="0" class="active"></li>
+               <li data-target="#testi" data-slide-to="1"></li>
+               <li data-target="#testi" data-slide-to="2"></li>
+            </ol>
             <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <div class="container col-9">
-                  <div class="row">
-                    <div class="col-xl-6">
-                      <img
-                        src="https://static.pxlecdn.com/photos/418819631/original/9d8066e94dd0e01315d4.jpg"
-                        style="width: 100%; height: 80%"
-                      />
-                    </div>
-                    <div class="col-8 col-xl-6 align-self-center">
-                      <h5><b>RANDOM 1</b></h5>
-                      Born in Boulder, Colo. as a simple, comfortable boat shoe,
-                      today Crocs™ footwear can be found across the globe and in
-                      more than 120 styles for men, women and children. With
-                      distinct collections, Crocs offers colorful, lightweight
-                      comfort for any occasion and every season.
-                    </div>
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="carousel-caption testi">
+                        <div class="row d_flex">
+                           <div class="col-md-3">
+                              <div class="pro_file">
+                                 <i><img class="text_align_right" src="images/test2.png" alt="#"/></i>
+                              </div>
+                           </div>
+                           <div class="col-md-9">
+                              <div class="test_box text_align_left">
+                                 <h4>randomised</h4>
+                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or  words which don't look even slightly believable. If you are going</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-                <div class="carousel-caption d-none d-md-block"></div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <div class="container col-9">
-                  <div class="row">
-                    <div class="col-xl-6">
-                      <img
-                        src="https://static.pxlecdn.com/photos/418819631/original/9d8066e94dd0e01315d4.jpg"
-                        style="width: 100%; height: 80%"
-                      />
-                    </div>
-                    <div class="col-8 col-xl-6 align-self-center">
-                      <h5><b>RANDOM 2</b></h5>
-                      Born in Boulder, Colo. as a simple, comfortable boat shoe,
-                      today Crocs™ footwear can be found across the globe and in
-                      more than 120 styles for men, women and children. With
-                      distinct collections, Crocs offers colorful, lightweight
-                      comfort for any occasion and every season.
-                    </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption testi">
+                        <div class="row d_flex">
+                           <div class="col-md-3">
+                              <div class="pro_file">
+                                 <i><img class="text_align_right" src="images/test2.png" alt="#"/></i>
+                              </div>
+                           </div>
+                           <div class="col-md-9">
+                              <div class="test_box text_align_left">
+                                 <h4>randomised</h4>
+                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or  words which don't look even slightly believable. If you are going</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-                <div class="carousel-caption d-none d-md-block"></div>
-              </div>
-              <div class="carousel-item">
-                <div class="container col-9">
-                  <div class="row">
-                    <div class="col-xl-6">
-                      <img
-                        src="https://static.pxlecdn.com/photos/418819631/original/9d8066e94dd0e01315d4.jpg"
-                        style="width: 100%; height: 80%"
-                      />
-                    </div>
-                    <div class="col-8 col-xl-6 align-self-center">
-                      <h5><b>RANDOM 3</b></h5>
-                      Born in Boulder, Colo. as a simple, comfortable boat shoe,
-                      today Crocs™ footwear can be found across the globe and in
-                      more than 120 styles for men, women and children. With
-                      distinct collections, Crocs offers colorful, lightweight
-                      comfort for any occasion and every season.
-                    </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption testi">
+                        <div class="row d_flex">
+                           <div class="col-md-3">
+                              <div class="pro_file">
+                                 <i><img class="text_align_right" src="images/test2.png" alt="#"/></i>
+                              </div>
+                           </div>
+                           <div class="col-md-9">
+                              <div class="test_box text_align_left">
+                                 <h4>randomised</h4>
+                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or  words which don't look even slightly believable. If you are going</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                   </div>
-                </div>
-                <div class="carousel-caption d-none d-md-block"></div>
-              </div>
+               </div>
             </div>
-            <br /><br />
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </section>
+            <a class="carousel-control-prev" href="#testi" role="button" data-slide="prev">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testi" role="button" data-slide="next">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <span class="sr-only">Next</span>
+            </a>
+         </div>
       </div>
-    </div>
-
-    <!-- LATEST NEWS -->
-    <div class="container-fluid main_rest green_bg" id="section6">
-      <div class="container col-9 main_child">
-        <h2 class="left">
-          <span class="dark">LATEST</span><span class="light"> NEWS</span>
-        </h2>
-        <br />
-        <section class="d-flex justify-content-center mx-auto">
-          <div class="container">
+      <!-- end clients -->
+      <!-- news -->
+      <div class="news padd_rl30">
+         <div class="container">
             <div class="row">
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="https://shopcrocs.in/media/wysiwyg/061021-MegaMenuRefresh-SaleLg3.jpeg?auto=webp&format=pjpg&quality=85"
-                    class="card-img-top"
-                    alt="running_shoes"
-                    style="width: auto; height: 300px"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Running Shoes</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.! Lorem ipsum
-                      dolor, sit amet consectetur adipisicing elit. Recusandae
-                      quas possimus libero quos nostrum quae a corrupti illum
-                      impedit repudiandae? Saepe sapiente excepturi laudantium,
-                      voluptatibus ex ipsum facilis at totam?
-                    </p>
+               <div class="col-md-12">
+                  <div class="titlepage text_align_left">
+                     <h2>Latest <span>News</span></h2>
                   </div>
-                </div>
-                <div class="col text-center transformed_buttons">
-                  <button class="btn_news_section">Read More</button>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="https://shopcrocs.in/media/wysiwyg/Men_s_Jibbitz.png?auto=webp&format=png&quality=85"
-                    alt="ladies_shoes"
-                    style="width: auto; height: 300px"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Ladies Shoes</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content. Lorem ipsum dolor
-                      sit amet consectetur adipisicing elit. Cum alias nisi
-                      libero quas aliquam assumenda, deleniti quisquam repellat
-                      obcaecati accusantium? Facere id at neque ullam nesciunt
-                      exercitationem deleniti voluptatem delectus.
-                    </p>
-                  </div>
-                </div>
-                <div class="col text-center transformed_buttons">
-                  <button class="btn_news_section">Read More</button>
-                </div>
-              </div>
+               </div>
             </div>
-          </div>
-        </section>
-      </div>
-    </div>
-
-    <!-- GET IN TOUCH -->
-    <div class="container-fluid main_rest light_bg" id="section7">
-      <div class="container col-9 main_child">
-        <section class="d-flex justify-content-center mx-auto">
-          <div class="container">
             <div class="row">
-              <div class="col">
-                <h2 style="padding-bottom: 30px; transform: translateX(-30px)">
-                  <span class="dark">GET IN TOUCH</span>
-                </h2>
-                <form class="row g-3">
-                  <div class="col-12">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="name"
-                      placeholder="Name"
-                    />
+               <div class="col-lg-6">
+                  <div class="latest text_align_left">
+                    <figure><img src="images/news1.png" alt="#"/></figure>
+                    <div class="dist">
+                    <h3>Eader will be distracted by the read</h3>
+                    <p>established fact that a rable content of a page when looking at its layout. The point of using Lorem Ipsumeader will be distracted by the read</p>
+                    </div>
                   </div>
-                  <div class="col-12">
-                    <input
-                      type="number"
-                      class="form-control"
-                      id="ph_no"
-                      maxlength="10"
-                      minlength="10"
-                      placeholder="Phone Number"
-                    />
+                  <a class="read_more" href="news.html">Read More</a>
+               </div>
+               <div class="col-lg-6">
+                  <div class="latest text_align_left">
+                    <figure><img src="images/news2.png" alt="#"/></figure>
+                    <div class="dist">
+                    <h3>Eader will be distracted by the read</h3>
+                    <p>established fact that a rable content of a page when looking at its layout. The point of using Lorem Ipsumeader will be distracted by the read</p>
+                    </div>
                   </div>
-                  <div class="col-12">
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="email"
-                      placeholder="E-mail"
-                    />
-                  </div>
-                  <div class="col-12">
-                    <textarea
-                      id="message"
-                      rows="4"
-                      cols="70"
-                      class="form-control"
-                      placeholder="Message"
-                    ></textarea>
-                  </div>
-                  <div class="col-12">
-                    <button type="submit" class="main_btn">SEND</button>
-                  </div>
-                </form>
-              </div>
-              <div class="col-lg-6 map align-self-center">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d897241.9084702522!2d76.74427786562501!3d28.544191799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5cfb28e9dc9%3A0xe99743615695092c!2sCrocs!5e0!3m2!1sen!2sin!4v1652254106344!5m2!1sen!2sin"
-                  width="350"
-                  height="400"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
+                  <a class="read_more" href="news.html">Read More</a>
+               </div>
             </div>
-          </div>
-        </section>
+         </div>
       </div>
-    </div>
-
-    <!-- FOOTER -->
-    <div class="container-fluid main_rest green_bg" id="section7">
-      <div class="container col-9 main_child">
-        <section class="d-flex justify-content-center mx-auto">
-          <div class="container">
+      <!-- end news -->
+      <!-- contact -->
+      <div class="contact padd_rl30">
+         <div class="container">
+           <div class="row">
+             <div class="col-md-12">
+                  <div class="titlepage text_align_left">
+                     <h2>Get In Touch</h2>
+                  </div>
+               </div>
+           </div>
             <div class="row">
-              <div class="col-3">
-                <h5>Section</h5>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-muted">Home</a>
-                  </li>
-                  <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-muted">About</a>
-                  </li>
-                  <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-muted">Service</a>
-                  </li>
-                  <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-muted">Blog</a>
-                  </li>
-                  <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-muted">Contact</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-3 map align-self-start">
-                <h5>Location</h5>
-                <ul class="nav flex-column">
-                  <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-muted"
-                      >FF 42, First Floor, Pacific Mall, Tagore Garden, Subhash
-                      Nagar, New Delhi, Delhi 110018</a
-                    >
-                  </li>
-                  <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-muted"
-                      >+91 9123456789</a
-                    >
-                  </li>
-                  <li class="nav-item mb-2">
-                    <a href="#" class="nav-link p-0 text-muted"
-                      >crocs@crocs.com</a
-                    >
-                  </li>
-                </ul>
-              </div>
-
-              <div class="col-2" style="margin-left: 5px; margin-right: 10px">
-                <h5>Social Links</h5>
-                <img
-                  src="https://img.icons8.com/ios-glyphs/60/facebook-new.png"
-                  class="sm_icons"
-                  alt="fb"
-                />
-                <img
-                  src="https://img.icons8.com/ios/100/instagram-new--v1.png"
-                  class="sm_icons"
-                  alt="ig"
-                />
-                <img
-                  src="https://img.icons8.com/ios-glyphs/60/twitter--v1.png"
-                  class="sm_icons"
-                  alt="tw"
-                />
-              </div>
-
-              <div class="col-3">
-                <form>
-                  <h5>Newsletter</h5>
-                  <div class="d-flex w-100 gap-2">
-                    <input
-                      id="newsletter1"
-                      type="text"
-                      class="form-control"
-                      placeholder="Email Your email"
-                      style="border-radius: 2px"
-                    />
+               <div class="col-lg-6">
+                  <form id="request" class="main_form">
+                     <div class="row">
+                        <div class="col-md-12 ">
+                           <input class="contactus" placeholder="Your name" type="type" name=" Name"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                       
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Email" type="type" name="Email">                          
+                        </div>
+                        <div class="col-md-12">
+                           <textarea class="textarea" placeholder="Message" type="type" Message="Name"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                           <button class="send_btn">Send</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <div class="col-lg-6">
+                  <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="440" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
                   </div>
-                  <div>
-                    <button
-                      class="main_btn"
-                      style="
-                        margin-top: 10px;
-                        padding-right: 5px;
-                        padding-left: 5px;
-                        width: 150px;
-                      "
-                    >
-                      SUBSCRIBE
-                    </button>
-                  </div>
-                </form>
-              </div>
+               </div>
             </div>
-          </div>
-        </section>
+         </div>
       </div>
-    </div>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
+      <!-- contact -->
+      <!-- footer -->
+      <footer>
+         <div class="footer padd_rl30">
+            <div class="container">
+               <div class="row">
+                
+                  <div class="col-lg-3 col-md-6 col-sm-6">
+                     <div class="Informa helpful">
+                        <h3>Menu</h3>
+                        <ul>
+                           <li><a href="index.html">Home</a></li>
+                           <li><a href="about.html">About</a></li>
+                           <li><a href="service.html">Service</a></li>
+                           <li><a href="blog.html">Blog</a></li>
+                           <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6">
+                     <div class="Informa conta">
+                        <h3>Location</h3>
+                        <ul>
+                           <li> <img src="images/loc.png" alt="#"/> 104 loram ipusm</li>
+                           <li> <a href="Javascript:void(0)"><img src="images/call.png" alt="#"/> ( +91 69582478 )</a></li>
+                           <li> <a href="Javascript:void(0)"> <img src="images/mail.png" alt="#"/> demo@gmail.com</a></li>
+                        </ul>
+                     </div>
+                  </div>
+                 
+                  <div class="col-lg-3 col-md-6 col-sm-6">
+                     <div class="Informa conta">
+                        <h3>Social Link</h3>
+                       <ul class="social_icon text_align_center">
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                     </ul>
+                     </div>
+                    
+                  </div>
+                   <div class="col-lg-3 col-md-6 col-sm-6">
+                      <div class="Informa helpful">
+                        <h3>Newsletter</h3>
+                         <form class="newslatter_form">
+                        <input class="ente" placeholder="Enter Your email" type="text" name="Enter your email">
+                        <button class="subs_btn">Subscribe</button>
+                     </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright text_align_center">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-10 offset-md-1">
+                        <p>© 2023 All Rights Reserved. Design by  <a href="https://mayanknasa.netlify.app/">Mayank Nasa</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+       </div>
+     </div>
+      <!-- end footer -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
 </html>
