@@ -1,2 +1,3 @@
 # mn-template
-visit live demo at : https://mn-template.netlify.app/
+Visit Website at : https://mn-template.netlify.app/
+Thanks for visiting :)
