@@ -4,7 +4,7 @@
 
 ## 🌐 Live Preview  
 Check out the live demo of our template:  
-👉 [Visit Website](https://mn-template.netlify.app/)  
+👉 [Visit Website](https://weddinghouse.netlify.app/)  
 
 ---
 
